@@ -11,7 +11,7 @@ public class loginIndex extends SeleniumInit
 	@Test(priority=1)
 	public void login_tarpan_credential() throws Exception
 	{
-		log("Step 1 : Open url:");
+		log("Step 1 : Open url:<a>"+testUrl+"</a>");
 		log("Verify that Gmail login page is open or not.");
 		
 		l_verify = l_index_page.loginPage();
@@ -26,7 +26,7 @@ public class loginIndex extends SeleniumInit
 		}
 		
 		
-		l_verify = l_index_page.loginTarpan(userName_tarpan, pass_tarpan);
+		l_verify = l_index_page.loginTarpan(userName, pass);
 	
 		if(l_verify.login_verify())
 		{
