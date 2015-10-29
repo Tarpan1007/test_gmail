@@ -53,6 +53,8 @@ public class loginIndexpage extends AbstractPage
 		log("Step : Enter password."+passwd);
 		Common.type(paswd_field, passwd);
 		log("Step : Click on Sign in button.");
+		
+		Common.clickOn(driver, signin_btn);
 				
 		return new loginVerification(driver);
 		
