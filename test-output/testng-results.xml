@@ -1,202 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="1" total="1" passed="0">
-  <reporter-output>
-    <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Verify that Gmail login page is open or not.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step : Enter email id.rudresh.vyas@kiwiqa.com]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step : Click on Next button.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step : Enter password.baps@200]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step : Click on Sign in button.]]>
-    </line>
-    <line>
-      <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>org.openqa.selenium.WebDriverException: Error communicating with the remote browser. It may have died.]]>
-    </line>
-  </reporter-output>
-  <suite name="ST - Events Module" duration-ms="38974" started-at="2015-10-29T07:10:13Z" finished-at="2015-10-29T07:10:52Z">
-    <groups>
-    </groups>
-    <test name="To verify Login functionality." duration-ms="38974" started-at="2015-10-29T07:10:13Z" finished-at="2015-10-29T07:10:52Z">
-      <class name="com.login.Index.loginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@34d63f]" name="fetchSuiteConfiguration" is-config="true" duration-ms="6" started-at="2015-10-29T12:40:13Z" finished-at="2015-10-29T12:40:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@927f3e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@34d63f]" name="setUp" is-config="true" duration-ms="10911" started-at="2015-10-29T12:40:13Z" finished-at="2015-10-29T12:40:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.login.Index.loginIndex.login_tarpan_credential() throws java.lang.Exception]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@927f3e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="login_tarpan_credential()[pri:1, instance:com.login.Index.loginIndex@34d63f]" name="login_tarpan_credential" duration-ms="26990" started-at="2015-10-29T12:40:24Z" finished-at="2015-10-29T12:40:51Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 12.74 seconds
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bd60ed70-90ba-4a1e-a598-bae0c44bcb79, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bd60ed70-90ba-4a1e-a598-bae0c44bcb79
-*** Element info: {Using=xpath, value=.//*[@class='nU n1']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: EventFiringWebDriver
-Command duration or timeout: 12.74 seconds
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=bd60ed70-90ba-4a1e-a598-bae0c44bcb79, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bd60ed70-90ba-4a1e-a598-bae0c44bcb79
-*** Element info: {Using=xpath, value=.//*[@class='nU n1']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$0(AjaxElementLocator.java:1)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:49)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
-	at com.google.common.collect.Iterators$8.transform(Iterators.java:799)
-	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
-	at com.google.common.collect.Iterators.addAll(Iterators.java:362)
-	at com.google.common.collect.Lists.newArrayList(Lists.java:160)
-	at com.google.common.collect.Lists.newArrayList(Lists.java:144)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:554)
-	at init.Common.highlightElement(Common.java:864)
-	at com.login.Verification.loginVerification.login_verify(loginVerification.java:34)
-	at com.login.Index.loginIndex.login_tarpan_credential(loginIndex.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: EventFiringWebDriver
-Build info: version: '2.48.1', revision: 'd80083d', time: '2015-10-08 21:11:00'
-System info: host: 'KQSPL-R', ip: '192.168.1.78', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Verify that Gmail login page is open or not.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step : Enter email id.rudresh.vyas@kiwiqa.com]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step : Click on Next button.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step : Enter password.baps@200]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step : Click on Sign in button.]]>
-            </line>
-            <line>
-              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><h3>Failure Reason:</h3>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>org.openqa.selenium.WebDriverException: Error communicating with the remote browser. It may have died.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login_tarpan_credential -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.login.Index.loginIndex@34d63f]" name="tearDown" is-config="true" duration-ms="1055" started-at="2015-10-29T12:40:51Z" finished-at="2015-10-29T12:40:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login_tarpan_credential status=FAILURE method=loginIndex.login_tarpan_credential()[pri:1, instance:com.login.Index.loginIndex@34d63f] output=<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-=======
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<br></br>Step 1 : Open url:]]>
+      <![CDATA[<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]>
     </line>
     <line>
       <![CDATA[<br></br>Verify that Gmail login page is open or not.]]>
@@ -223,23 +29,23 @@ Driver info: driver.version: unknown
       <![CDATA[<br></br><br></br> Not able to perform logout]]>
     </line>
   </reporter-output>
-  <suite name="ST - Events Module" duration-ms="70345" started-at="2015-10-29T07:04:53Z" finished-at="2015-10-29T07:06:03Z">
+  <suite name="ST - Events Module" duration-ms="63989" started-at="2015-10-29T09:33:18Z" finished-at="2015-10-29T09:34:22Z">
     <groups>
     </groups>
-    <test name="To verify Login functionality." duration-ms="70345" started-at="2015-10-29T07:04:53Z" finished-at="2015-10-29T07:06:03Z">
+    <test name="To verify Login functionality." duration-ms="63989" started-at="2015-10-29T09:33:18Z" finished-at="2015-10-29T09:34:22Z">
       <class name="com.login.Index.loginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@2d6a9952]" name="fetchSuiteConfiguration" is-config="true" duration-ms="16" started-at="2015-10-29T00:04:53Z" finished-at="2015-10-29T00:04:53Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="fetchSuiteConfiguration" is-config="true" duration-ms="30" started-at="2015-10-29T02:33:18Z" finished-at="2015-10-29T02:33:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@35bbe5e8]]>
+                <![CDATA[org.testng.TestRunner@8c16aa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@2d6a9952]" name="setUp" is-config="true" duration-ms="10952" started-at="2015-10-29T00:04:53Z" finished-at="2015-10-29T00:05:04Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="setUp" is-config="true" duration-ms="9040" started-at="2015-10-29T02:33:18Z" finished-at="2015-10-29T02:33:27Z">
           <params>
             <param index="0">
               <value>
@@ -248,17 +54,17 @@ Driver info: driver.version: unknown
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@35bbe5e8]]>
+                <![CDATA[org.testng.TestRunner@8c16aa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login_tarpan_credential()[pri:0, instance:com.login.Index.loginIndex@2d6a9952]" name="login_tarpan_credential" duration-ms="27065" started-at="2015-10-29T00:05:04Z" finished-at="2015-10-29T00:05:31Z">
+        <test-method status="PASS" signature="login_tarpan_credential()[pri:1, instance:com.login.Index.loginIndex@7cdbc5d3]" name="login_tarpan_credential" duration-ms="24102" started-at="2015-10-29T02:33:27Z" finished-at="2015-10-29T02:33:51Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br>Step 1 : Open url:]]>
+              <![CDATA[<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]>
             </line>
             <line>
               <![CDATA[<br></br>Verify that Gmail login page is open or not.]]>
@@ -283,11 +89,11 @@ Driver info: driver.version: unknown
             </line>
           </reporter-output>
         </test-method> <!-- login_tarpan_credential -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.login.Index.loginIndex@2d6a9952]" name="tearDown" is-config="true" duration-ms="32311" started-at="2015-10-29T00:05:31Z" finished-at="2015-10-29T00:06:03Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="tearDown" is-config="true" duration-ms="30790" started-at="2015-10-29T02:33:51Z" finished-at="2015-10-29T02:34:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login_tarpan_credential status=SUCCESS method=loginIndex.login_tarpan_credential()[pri:0, instance:com.login.Index.loginIndex@2d6a9952] output=<br></br>Step 1 : Open url:]]]>
+                <![CDATA[[TestResult name=login_tarpan_credential status=SUCCESS method=loginIndex.login_tarpan_credential()[pri:1, instance:com.login.Index.loginIndex@7cdbc5d3] output=<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]]>
               </value>
             </param>
           </params>
@@ -295,7 +101,6 @@ Driver info: driver.version: unknown
             <line>
               <![CDATA[<br></br><br></br> Not able to perform logout]]>
             </line>
->>>>>>> branch 'master' of https://github.com/Tarpan1007/test_gmail.git
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.login.Index.loginIndex -->
