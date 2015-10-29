@@ -129,7 +129,7 @@
       
       <!-- <suiteXmlFile>build\VideogramHomePageIndexSuite.xml</suiteXmlFile>
       <suiteXmlFile>build\VideogramSignUpIndexSuite.xml</suiteXmlFile> -->
-      <suiteXmlFile>Build\indexsuit.xml</suiteXmlFile>
+      <suiteXmlFile>Build\indexsuite.xml</suiteXmlFile>
       <!-- <suiteXmlFile>build\VideogramDiscoverIndexSuite.xml</suiteXmlFile> -->
       <!-- <suiteXmlFile>build\VideogramChannelsIndexSuite.xml</suiteXmlFile>
       <suiteXmlFile>build\VideogramDashboardIndexSuite.xml</suiteXmlFile> -->
@@ -152,7 +152,7 @@
      </properties>
     </configuration>
    </plugin>
-  </plugins>
+    </plugins>
  </build>
 
 
