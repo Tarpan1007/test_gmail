@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [ST - Events Module]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.plateform" value="cloud"/>
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="selenium.url" value="http://mail.google.com"/>
+  <test name="To verify Login functionality.(failed)" parallel="tests">
+    <classes>
+      <class name="com.login.Index.loginIndex">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login_tarpan_credential"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.login.Index.loginIndex -->
+    </classes>
+  </test> <!-- To verify Login functionality.(failed) -->
+</suite> <!-- Failed suite [ST - Events Module] -->
