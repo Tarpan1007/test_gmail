@@ -57,7 +57,10 @@ public class loginIndexpage extends AbstractPage
 		Common.clickOn(driver, signin_btn);
 		/*jhcvjhchscvjhsgcvyjhsdygcsdyug*/		
 		
-		
+		log("Step : Click on Next button.");
+		log("Step : Click on Next button.");
+		log("Step : Click on Next button.");
+		log("Step : Click on Next button.");
 		
 		return new loginVerification(driver);
 		
