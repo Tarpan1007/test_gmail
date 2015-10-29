@@ -25,7 +25,7 @@ public class loginIndex extends SeleniumInit
 			log("Fail");
 		}
 		
-		
+		//avhcsdifuiwguifbeevfuyghiu
 		l_verify = l_index_page.loginTarpan(userName, pass);
 	
 		if(l_verify.login_verify())

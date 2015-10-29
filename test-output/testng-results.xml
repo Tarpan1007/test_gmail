@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
     <line>
@@ -191,6 +192,110 @@ Driver info: driver.version: unknown
             </param>
           </params>
           <reporter-output>
+=======
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<br></br>Step 1 : Open url:]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify that Gmail login page is open or not.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step : Enter email id.tarpanworld13@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step : Click on Next button.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step : Enter password.taps@107]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step : Click on Sign in button.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br><br></br> Not able to perform logout]]>
+    </line>
+  </reporter-output>
+  <suite name="ST - Events Module" duration-ms="70345" started-at="2015-10-29T07:04:53Z" finished-at="2015-10-29T07:06:03Z">
+    <groups>
+    </groups>
+    <test name="To verify Login functionality." duration-ms="70345" started-at="2015-10-29T07:04:53Z" finished-at="2015-10-29T07:06:03Z">
+      <class name="com.login.Index.loginIndex">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@2d6a9952]" name="fetchSuiteConfiguration" is-config="true" duration-ms="16" started-at="2015-10-29T00:04:53Z" finished-at="2015-10-29T00:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35bbe5e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@2d6a9952]" name="setUp" is-config="true" duration-ms="10952" started-at="2015-10-29T00:04:53Z" finished-at="2015-10-29T00:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.login.Index.loginIndex.login_tarpan_credential() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@35bbe5e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login_tarpan_credential()[pri:0, instance:com.login.Index.loginIndex@2d6a9952]" name="login_tarpan_credential" duration-ms="27065" started-at="2015-10-29T00:05:04Z" finished-at="2015-10-29T00:05:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1 : Open url:]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify that Gmail login page is open or not.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step : Enter email id.tarpanworld13@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step : Click on Next button.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step : Enter password.taps@107]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step : Click on Sign in button.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_tarpan_credential -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.login.Index.loginIndex@2d6a9952]" name="tearDown" is-config="true" duration-ms="32311" started-at="2015-10-29T00:05:31Z" finished-at="2015-10-29T00:06:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_tarpan_credential status=SUCCESS method=loginIndex.login_tarpan_credential()[pri:0, instance:com.login.Index.loginIndex@2d6a9952] output=<br></br>Step 1 : Open url:]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br><br></br> Not able to perform logout]]>
+            </line>
+>>>>>>> branch 'master' of https://github.com/Tarpan1007/test_gmail.git
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.login.Index.loginIndex -->
