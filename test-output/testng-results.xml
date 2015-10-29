@@ -29,12 +29,12 @@
       <![CDATA[<br></br><br></br> Not able to perform logout]]>
     </line>
   </reporter-output>
-  <suite name="ST - Events Module" duration-ms="63989" started-at="2015-10-29T09:33:18Z" finished-at="2015-10-29T09:34:22Z">
+  <suite name="ST - Events Module" duration-ms="74563" started-at="2015-10-29T11:02:53Z" finished-at="2015-10-29T11:04:07Z">
     <groups>
     </groups>
-    <test name="To verify Login functionality." duration-ms="63989" started-at="2015-10-29T09:33:18Z" finished-at="2015-10-29T09:34:22Z">
+    <test name="To verify Login functionality." duration-ms="74563" started-at="2015-10-29T11:02:53Z" finished-at="2015-10-29T11:04:07Z">
       <class name="com.login.Index.loginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="fetchSuiteConfiguration" is-config="true" duration-ms="30" started-at="2015-10-29T02:33:18Z" finished-at="2015-10-29T02:33:18Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="fetchSuiteConfiguration" is-config="true" duration-ms="26" started-at="2015-10-29T04:02:53Z" finished-at="2015-10-29T04:02:53Z">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="setUp" is-config="true" duration-ms="9040" started-at="2015-10-29T02:33:18Z" finished-at="2015-10-29T02:33:27Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="setUp" is-config="true" duration-ms="10172" started-at="2015-10-29T04:02:53Z" finished-at="2015-10-29T04:03:03Z">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login_tarpan_credential()[pri:1, instance:com.login.Index.loginIndex@7cdbc5d3]" name="login_tarpan_credential" duration-ms="24102" started-at="2015-10-29T02:33:27Z" finished-at="2015-10-29T02:33:51Z">
+        <test-method status="PASS" signature="login_tarpan_credential()[pri:1, instance:com.login.Index.loginIndex@7cdbc5d3]" name="login_tarpan_credential" duration-ms="33441" started-at="2015-10-29T04:03:03Z" finished-at="2015-10-29T04:03:36Z">
           <reporter-output>
             <line>
               <![CDATA[<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]>
@@ -89,7 +89,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login_tarpan_credential -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="tearDown" is-config="true" duration-ms="30790" started-at="2015-10-29T02:33:51Z" finished-at="2015-10-29T02:34:22Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="tearDown" is-config="true" duration-ms="30903" started-at="2015-10-29T04:03:36Z" finished-at="2015-10-29T04:04:07Z">
           <params>
             <param index="0">
               <value>
