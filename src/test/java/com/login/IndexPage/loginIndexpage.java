@@ -1,13 +1,13 @@
 package com.login.IndexPage;
 
+import init.AbstractPage;
+import init.Common;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.login.Verification.loginVerification;
-
-import init.AbstractPage;
-import init.Common;
 
 public class loginIndexpage extends AbstractPage
 {
@@ -56,13 +56,7 @@ public class loginIndexpage extends AbstractPage
 		
 		Common.clickOn(driver, signin_btn);
 		/*jhcvjhchscvjhsgcvyjhsdygcsdyug*/		
-		
-		log("Step : Click vira on Next button.");
-		log("Step : Click on Next button.");
-		log("Step : Click on Next button.");
-		log("Step : Click on Next button.");
-		
-		log("Step : Click vira on Next button.");
+
 		
 		return new loginVerification(driver);
 		

@@ -54,9 +54,9 @@ public class SeleniumInit  {
 	
 	public String userName_Temp = "socialtables2278@mailinator.com";
 	
-	public String userName = "rudresh.vyas@kiwiqa.com";
+	public String userName = "tarpanworld13@gmail.com";
 	
-	public String pass = "baps@200";
+	public String pass = "taps@107";
 	
 	
 	// screen-shot folder
