@@ -1,51 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Verify that Gmail login page is open or not.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step : Enter email id.tarpanworld13@gmail.com]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step : Click on Next button.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step : Enter password.taps@107]]>
-    </line>
-    <line>
-      <![CDATA[<br></br>Step : Click on Sign in button.]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
-    </line>
-    <line>
-      <![CDATA[<br></br><br></br> Not able to perform logout]]>
+      <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
     </line>
   </reporter-output>
-  <suite name="ST - Events Module" duration-ms="74563" started-at="2015-10-29T11:02:53Z" finished-at="2015-10-29T11:04:07Z">
+  <suite name="GMAIL - LOGIN Module" duration-ms="3132" started-at="2015-11-03T10:28:51Z" finished-at="2015-11-03T10:28:54Z">
     <groups>
     </groups>
-    <test name="To verify Login functionality." duration-ms="74563" started-at="2015-10-29T11:02:53Z" finished-at="2015-10-29T11:04:07Z">
+    <test name="To verify Login functionality." duration-ms="3132" started-at="2015-11-03T10:28:51Z" finished-at="2015-11-03T10:28:54Z">
       <class name="com.login.Index.loginIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="fetchSuiteConfiguration" is-config="true" duration-ms="26" started-at="2015-10-29T04:02:53Z" finished-at="2015-10-29T04:02:53Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@21bcffb5]" name="fetchSuiteConfiguration" is-config="true" duration-ms="10" started-at="2015-11-03T15:58:51Z" finished-at="2015-11-03T15:58:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@8c16aa]]>
+                <![CDATA[org.testng.TestRunner@74f58d85]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="setUp" is-config="true" duration-ms="10172" started-at="2015-10-29T04:02:53Z" finished-at="2015-10-29T04:03:03Z">
+        <test-method status="FAIL" signature="setUp(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.login.Index.loginIndex@21bcffb5]" name="setUp" is-config="true" duration-ms="0" started-at="2015-11-03T15:58:51Z" finished-at="2015-11-03T15:58:51Z">
           <params>
             <param index="0">
               <value>
@@ -54,56 +30,102 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@8c16aa]]>
+                <![CDATA[org.testng.TestRunner@74f58d85]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HP', ip: '192.168.1.35', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
+	at init.SeleniumInit.setUp(SeleniumInit.java:296)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:4444 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+	... 26 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login_tarpan_credential()[pri:1, instance:com.login.Index.loginIndex@7cdbc5d3]" name="login_tarpan_credential" duration-ms="33441" started-at="2015-10-29T04:03:03Z" finished-at="2015-10-29T04:03:36Z">
+        <test-method status="SKIP" signature="login_tarpan_credential()[pri:0, instance:com.login.Index.loginIndex@21bcffb5]" name="login_tarpan_credential" duration-ms="7" started-at="2015-11-03T15:58:54Z" finished-at="2015-11-03T15:58:54Z">
           <reporter-output>
             <line>
-              <![CDATA[<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Verify that Gmail login page is open or not.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step : Enter email id.tarpanworld13@gmail.com]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step : Click on Next button.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step : Enter password.taps@107]]>
-            </line>
-            <line>
-              <![CDATA[<br></br>Step : Click on Sign in button.]]>
-            </line>
-            <line>
-              <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
+              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
             </line>
           </reporter-output>
         </test-method> <!-- login_tarpan_credential -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.login.Index.loginIndex@7cdbc5d3]" name="tearDown" is-config="true" duration-ms="30903" started-at="2015-10-29T04:03:36Z" finished-at="2015-10-29T04:04:07Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.login.Index.loginIndex@21bcffb5]" name="tearDown" is-config="true" duration-ms="15" started-at="2015-11-03T15:58:54Z" finished-at="2015-11-03T15:58:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login_tarpan_credential status=SUCCESS method=loginIndex.login_tarpan_credential()[pri:1, instance:com.login.Index.loginIndex@7cdbc5d3] output=<br></br>Step 1 : Open url:<a>http://mail.google.com</a>]]]>
+                <![CDATA[[TestResult name=login_tarpan_credential status=SKIP method=loginIndex.login_tarpan_credential()[pri:0, instance:com.login.Index.loginIndex@21bcffb5] output=<br> <b>Please look to the screenshot - </b>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[<br></br><br></br> Not able to perform logout]]>
-            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.login.Index.loginIndex -->
     </test> <!-- To verify Login functionality. -->
-  </suite> <!-- ST - Events Module -->
+  </suite> <!-- GMAIL - LOGIN Module -->
 </testng-results>

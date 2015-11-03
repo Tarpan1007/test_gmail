@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="10" name="Failed suite [ST - Events Module]" parallel="tests">
+<suite thread-count="1" verbose="0" name="Failed suite [ST - Events Module]" parallel="tests">
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
   <parameter name="selenium.plateform" value="cloud"/>
