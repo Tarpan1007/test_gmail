@@ -9,10 +9,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+
+import com.gargoylesoftware.htmlunit.BrowserVersion;
 
 public class test {
 
@@ -28,10 +31,13 @@ public class test {
 		ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");*/
 		
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new HtmlUnitDriver();
 		
 		driver.get("https://app.falkonry.ai/#/account/Zs6dk03l3w2rp0/datastream");
 		Thread.sleep(5000);
+		
+		System.err.println(driver.getTitle()+"-------->");
+		System.err.println(driver.getPageSource());
 		
 		clickOn(driver, ".//button/div[contains(text(),'Log in with Google')]");
 		
