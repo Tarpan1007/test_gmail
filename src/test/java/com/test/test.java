@@ -29,7 +29,7 @@ public class test {
 		//caps.setCapability("webdriver.chrome.driver", "source/chromedriver222.exe");
 		caps.setBrowserName("chrome");
 		ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
+     //   options.addArguments("--no-sandbox");
 		
 		WebDriver driver = new ChromeDriver();
 		

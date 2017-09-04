@@ -15,7 +15,7 @@
 	<!-- Put target platform name as Below:
 	1) Sauce Labs: Cloud
 	2) Local: local -->
-	<parameter name="selenium.plateform" value="cloud"/>
+	<!-- <parameter name="selenium.plateform" value="cloud"/> -->
 
 	<!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Comment 
 		<test> tag to unrun respective test. <listener class-name="com.socialTables.init.RetryConterManagerListener"/>  -->
