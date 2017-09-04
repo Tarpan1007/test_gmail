@@ -29,8 +29,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.internal.Utils;
 
-import com.login.IndexPage.loginIndexpage;
-import com.login.Verification.loginVerification;
+
 
 public class SeleniumInit  {
 
@@ -68,8 +67,7 @@ public class SeleniumInit  {
 	//Common Common = new Common(driver);
 
 	/* Page's declaration */
-	public loginVerification l_verify;
-	public loginIndexpage l_index_page;
+	
 
 	
 	
@@ -306,10 +304,6 @@ public class SeleniumInit  {
 		
 		
 		//Page Object Initialization According To Its Test Suite.
-		
-		l_verify = new loginVerification(driver);
-		l_index_page = new loginIndexpage(driver);
-	
 		
 //		event_verify = new Event_verification(driver);
 //		event_indexpage = new Event_indexpage(driver);

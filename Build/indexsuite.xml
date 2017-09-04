@@ -27,7 +27,7 @@
  <test name="To verify Login functionality.">
 	<classes>
 		<class
-			name="com.login.Index.loginIndex">
+			name="com.test.test">
 			<methods>
 				<include name="login_tarpan_credential"/>
 				
