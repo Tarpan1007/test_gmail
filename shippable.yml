@@ -16,5 +16,3 @@ before_install:
 - "sudo wget \"https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/$firefox/linux-x86_64/en-US/firefox-$firefox.tar.bz2\""
 - sudo tar -xjvf firefox-$firefox.tar.bz2
 - sudo ln -sf /tmp/firefox/firefox /usr/bin/firefox
-- ff_version=`firefox --version`
-- echo "Using firefox version $ff_version"
