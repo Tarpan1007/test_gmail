@@ -5,13 +5,9 @@ jdk:
 services:
 - selenium
 
+script:
+- "chmod +x /root/src/github.com/Tarpan1007/test_gmail/source/chromedriver"
+
 build:
 ci:
 - mvn test
-
-before_install:
-  - "curl -o /tmp/chromedriver.zip -L http://chromedriver.storage.googleapis.com/2.10/chromedriver_linux64.zip"
-  - "unzip /tmp/chromedriver.zip -d /home/shippable/bin"
-  - "chmod +x /home/shippable/bin/chromedriver"
-  - "echo '#!/bin/bash' | sudo tee /usr/bin/google-chrome"
-  - "echo 'exec /usr/bin/chrome --no-sandbox --disable-gpu \"$@\"' | sudo tee -a /usr/bin/google-chrome"
