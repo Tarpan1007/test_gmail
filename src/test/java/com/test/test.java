@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -20,14 +21,14 @@ public class test {
 	public  void abcd() throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
 
-		DesiredCapabilities caps = new DesiredCapabilities();
+		/*DesiredCapabilities caps = new DesiredCapabilities();
 		System.setProperty("webdriver.chrome.driver", "source/chromedriver1.exe");
 		//caps.setCapability("webdriver.chrome.driver", "source/chromedriver222.exe");
 		caps.setBrowserName("chrome");
 		ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
+        options.addArguments("--no-sandbox");*/
 		
-		WebDriver driver = new ChromeDriver(caps);
+		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("https://app.falkonry.ai/#/account/Zs6dk03l3w2rp0/datastream");
 		Thread.sleep(5000);

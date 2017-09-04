@@ -8,3 +8,10 @@ services:
 build:
 ci:
 - mvn test
+
+notifications:
+  email:
+      recipients:
+         - tarpan.patel@kiwiqa.com
+         - mukesh.patel@kiwiqa.com
+         - prashant.parekh@kiwiqa.com
