@@ -25,7 +25,7 @@ public class test {
 		// TODO Auto-generated method stub
 
 		DesiredCapabilities caps = new DesiredCapabilities();
-		System.setProperty("webdriver.chrome.driver", "source/chromedriver1.exe");
+		System.setProperty("webdriver.chrome.driver", "source/chromedriver");
 		//caps.setCapability("webdriver.chrome.driver", "source/chromedriver222.exe");
 		caps.setBrowserName("chrome");
 		ChromeOptions options = new ChromeOptions();
