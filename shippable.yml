@@ -1,0 +1,10 @@
+language: java
+jdk:
+- openjdk8
+
+services:
+- selenium
+
+build:
+ci:
+- mvn test
