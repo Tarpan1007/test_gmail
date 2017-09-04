@@ -9,10 +9,9 @@ build:
 ci:
 - mvn test
 
-env:
-- firefox="45.0"
-
 before_install:
-- "sudo wget \"https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/$firefox/linux-x86_64/en-US/firefox-$firefox.tar.bz2\""
-- sudo tar -xjvf firefox-$firefox.tar.bz2
-- sudo ln -sf /tmp/firefox/firefox /usr/bin/firefox
+  - "curl -o /tmp/chromedriver.zip -L http://chromedriver.storage.googleapis.com/2.10/chromedriver_linux64.zip"
+  - "unzip /tmp/chromedriver.zip -d /home/shippable/bin"
+  - "chmod +x /home/shippable/bin/chromedriver"
+  - "echo '#!/bin/bash' | sudo tee /usr/bin/google-chrome"
+  - "echo 'exec /usr/bin/chrome --no-sandbox --disable-gpu \"$@\"' | sudo tee -a /usr/bin/google-chrome"

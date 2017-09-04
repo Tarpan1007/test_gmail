@@ -20,24 +20,21 @@ import com.gargoylesoftware.htmlunit.BrowserVersion;
 public class test {
 
 	
-	@Test
+	@Test	
 	public  void abcd() throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
 
-		/*DesiredCapabilities caps = new DesiredCapabilities();
+		DesiredCapabilities caps = new DesiredCapabilities();
 		System.setProperty("webdriver.chrome.driver", "source/chromedriver1.exe");
 		//caps.setCapability("webdriver.chrome.driver", "source/chromedriver222.exe");
 		caps.setBrowserName("chrome");
 		ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");*/
+        options.addArguments("--no-sandbox");
 		
-		WebDriver driver = new HtmlUnitDriver();
+		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://app.falkonry.ai/#/account/Zs6dk03l3w2rp0/datastream");
 		Thread.sleep(5000);
-		
-		System.err.println(driver.getTitle()+"-------->");
-		System.err.println(driver.getPageSource());
 		
 		clickOn(driver, ".//button/div[contains(text(),'Log in with Google')]");
 		
