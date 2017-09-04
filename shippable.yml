@@ -22,6 +22,6 @@ before_install:
 notifications:
 email:
  recipients:
-- tarpan.patel@kiwiqa.com
-- mukesh.patel@kiwiqa.com
-- prashant.parekh@kiwiqa.com
+	- tarpan.patel@kiwiqa.com
+	- mukesh.patel@kiwiqa.com
+	- prashant.parekh@kiwiqa.com
