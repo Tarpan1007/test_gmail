@@ -29,7 +29,7 @@
 		<class
 			name="com.test.test">
 			<methods>
-				<include name="login_tarpan_credential"/>
+				<include name="abcd"/>
 				
 			</methods>
 		</class>
