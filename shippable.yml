@@ -3,7 +3,7 @@ jdk:
 - openjdk8
 
 addons:
-firefox: "29.0"
+firefox: "23.0"
 
 services:
 - selenium
@@ -13,6 +13,5 @@ script:
 
 build:
 ci:
-- sudo mvn install
 - "export DISPLAY=:99.0"
 - xvfb-run --server-args="-ac" mvn test
