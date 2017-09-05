@@ -9,6 +9,7 @@ services:
 - selenium
 
 script:
+
 - "chmod +x /root/src/github.com/Tarpan1007/test_gmail/source/chromedriver"
 
 build:

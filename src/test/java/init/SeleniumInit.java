@@ -101,8 +101,8 @@ public class SeleniumInit  {
 	@BeforeTest(alwaysRun = true)
 	public void fetchSuiteConfiguration(ITestContext testContext) 
 	{
-		testUrl = testContext.getCurrentXmlTest().getParameter("selenium.url");
-		System.out.println("\n ======"+testUrl+"========= \n");
+	//	testUrl = testContext.getCurrentXmlTest().getParameter("selenium.url");
+	//	System.out.println("\n ======"+testUrl+"========= \n");
 		seleniumHub = testContext.getCurrentXmlTest().getParameter(
 				"selenium.host");
 		seleniumHubPort = testContext.getCurrentXmlTest().getParameter(
@@ -242,15 +242,18 @@ public class SeleniumInit  {
 		} else if (targetBrowser.contains("chrome")) {
 
 			capability = DesiredCapabilities.chrome();
-			File file = new File("/Users/Nishil/Documents/workspace/socialtables_Sandbox/lib/chromedriver");
-			System.setProperty("webdriver.chrome.driver",
-					file.getAbsolutePath());
+		//	File file = new File("/Users/Nishil/Documents/workspace/socialtables_Sandbox/lib/chromedriver");
+		//	System.setProperty("webdriver.chrome.driver",
+		//			file.getAbsolutePath());
 			
 			capability.setBrowserName("chrome");
 			capability.setJavascriptEnabled(true);
 			browserName = capability.getVersion();
+			System.out.println("1 ---> "+browserName);
 			osName = capability.getPlatform().name();
+			System.out.println("2 ---> "+osName);
 			browserVersion = capability.getVersion();
+			System.out.println("3 ---> "+browserVersion);
 		} else if (targetBrowser.contains("ie9")) {
 			capability = DesiredCapabilities.internetExplorer();
 			capability.setBrowserName("internet explorer");
@@ -293,7 +296,7 @@ public class SeleniumInit  {
 		
 		driver = new RemoteWebDriver(remote_grid, capability);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get(testUrl);
+		//driver.get(testUrl);
 		driver.manage().window().maximize();
 		currentWindowHandle = driver.getWindowHandle();
 		System.out.println("Current Window Handle ID:--->"+currentWindowHandle);
