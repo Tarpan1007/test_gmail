@@ -2,6 +2,9 @@ language: java
 jdk:
 - openjdk8
 
+addons:
+firefox: "29.0"
+
 services:
 - selenium
 
