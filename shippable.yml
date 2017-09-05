@@ -13,5 +13,7 @@ script:
 
 build:
 ci:
+- sudo mvn -version
+- sudo mvn install
 - "export DISPLAY=:99.0"
 - xvfb-run --server-args="-ac" mvn test
